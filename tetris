@@ -1,0 +1,43 @@
+What should Tetris do?
+
+In loop: currently moving block, check each block placement for completed lines by row. 
+
+Display: The board, the score(static), the blocks.
+
+Randomization to determine what block is next.
+
+Clock speed should be adjustable but that will be implemented in v2.
+
+ActionListeners for Keyboard keys up, down, right, left.
+
+
+TODO NEXT:
+Write integration for array[][]. Currently is not being used but is needed for any checking for placement other other blocks.
+Test movement of decending block.
+
+FIRST 3 are reserved for starting the fall and do not count towards the overall thing.
+
+0000010000
+0000010000
+0000010000
+0000010000
+
+0000000000
+0000110000
+0000010000
+0000010000
+
+0000000000
+0000011000
+0000010000
+0000010000
+
+0000000000
+0000010000
+0000010000
+0000010000
+
+0000010000
+0000010000
+0000010000
+0000010000
